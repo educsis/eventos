@@ -1,0 +1,3 @@
+[build]
+  command = "ionic build"
+  publish = "www"

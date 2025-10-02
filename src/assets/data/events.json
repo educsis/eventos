@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Evento 1",
+    "responses": 10,
+    "image": "assets/images/event1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Evento 2",
+    "responses": 4,
+    "image": "assets/images/event2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Evento 3",
+    "responses": 15,
+    "image": "assets/images/event3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Evento 4",
+    "responses": 35,
+    "image": "assets/images/event4.jpg"
+  }
+]

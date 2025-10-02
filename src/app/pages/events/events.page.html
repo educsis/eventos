@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Eventos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-searchbar placeholder="Search"></ion-searchbar>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6" *ngFor="let ev of events">
+        <ion-card (click)="goToEvent(ev.id)">
+          <img [src]="ev.image" alt="event" />
+          <ion-card-content>
+            <strong>{{ ev.name }}</strong>
+            <p>Respuestas: {{ ev.responses }}</p>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
